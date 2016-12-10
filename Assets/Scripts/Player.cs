@@ -5,6 +5,7 @@ public class Player : MonoBehaviour {
 	
 	public GameObject Arrow;
 
+	public static int gameFlag=0;
 	private LevelManager levelManager;
 
 	private GameObject ArrowPos;
@@ -12,13 +13,14 @@ public class Player : MonoBehaviour {
 
 	private int numArrow;
 	private float posX, posY, posZ;
-	//private bool dropped = false;
+
 	// Use this for initialization
 	void Start () {
+		gameFlag = 0;
 		numArrow = 0;
 		levelManager = GameObject.FindObjectOfType<LevelManager> ();
 
-		InvokeRepeating ("CreateArrow", 3f, 9f);
+		InvokeRepeating ("CreateArrow", 3f, 6f);
 
 	}
 	
@@ -48,8 +50,8 @@ public class Player : MonoBehaviour {
 	}
 	void OnTriggerEnter (Collider colld)
 	{
-		if (colld.GetComponent<Arroww> ()) {
-			
+		if (colld.GetComponent<Arroww> ()||colld.GetComponent<dumbArrow>()) {
+			gameFlag = 1;
 			//Destroy (colld.gameObject);
 			//Destroy (gameObject);
 			levelManager.LoadLevel("Lose");

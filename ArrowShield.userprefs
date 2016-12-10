@@ -1,16 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\disScore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\colliderscript.cs">
     <Files>
+      <File FileName="Assets\Scripts\Player.cs" Line="56" Column="27" />
+      <File FileName="Assets\Scripts\shield.cs" Line="51" Column="31" />
       <File FileName="Assets\Scripts\LevelManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player.cs" Line="34" Column="17" />
-      <File FileName="Assets\Scripts\Arroww.cs" Line="76" Column="4" />
+      <File FileName="Assets\Scripts\Arroww.cs" Line="31" Column="5" />
+      <File FileName="Assets\Scripts\dumbArrow.cs" Line="19" Column="14" />
       <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Back.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\lost.cs" Line="9" Column="3" />
-      <File FileName="Assets\Scripts\won.cs" Line="9" Column="2" />
-      <File FileName="Assets\Scripts\disScore.cs" Line="5" Column="40" />
-      <File FileName="Assets\Scripts\shield.cs" Line="7" Column="27" />
+      <File FileName="Assets\Scripts\lost.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\won.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\disScore.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\colliderscript.cs" Line="17" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
