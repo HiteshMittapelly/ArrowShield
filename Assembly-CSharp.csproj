@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\lost.cs" />
      <Compile Include="Assets\Scripts\shield.cs" />
      <Compile Include="Assets\Scripts\won.cs" />
+     <Compile Include="Assets\soundColliderScipt.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

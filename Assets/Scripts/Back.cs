@@ -10,7 +10,7 @@ public class Back : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.B)) {
+		if (Input.GetKeyDown (KeyCode.P)) {
 			levelmanager.LoadLevel ("Game");
 		}
 	}

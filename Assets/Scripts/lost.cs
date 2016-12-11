@@ -6,12 +6,11 @@ public class won : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		levelManager = GameObject.FindObjectOfType<LevelManager> ();
-
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.N)) {
+		if (Input.GetKeyDown (KeyCode.P)) {
 			levelManager.LoadLevel ("Start");
 		}
 	}
